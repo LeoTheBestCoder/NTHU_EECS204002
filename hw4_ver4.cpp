@@ -1,3 +1,10 @@
+/*
+ * 1. This Program is Developed Solely by Myself: Yes
+ * 2. Student ID: 107061218
+ * 3. OJ ID: leo
+ * 4. OJ SID: 2240397
+ * 5. OJ Score: 10
+ */
 #include <iostream>
 #include <vector>
 #include <limits.h>
@@ -94,7 +101,7 @@ int main()
     }
     for (int i = 0; i < all_courses.size(); i++)
     {
-        previous.push_back('X');
+        previous.push_back('0');
         if (all_courses[i] == end_pt)
         {
             idx_of_real_end = i;
@@ -126,7 +133,7 @@ int main()
     tmp_char = end_pt;
     while (1)
     {
-        if (tmp_char == 'X')
+        if (tmp_char == '0')
             break;
         reversed_path.push_back(tmp_char);
         for (int i = 0; i < all_courses.size(); i++)
