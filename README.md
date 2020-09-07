@@ -2,7 +2,7 @@
 資料結構 呂仁碩
 
 Following is the corresponding online judge website for each homework. 
->- HW0: https://acm.cs.nthu.edu.tw/problem/12694/ 
+- HW0: https://acm.cs.nthu.edu.tw/problem/12694/ 
  HW0 Steal the most Value: dynamic programming (DP)
 >- HW1: https://acm.cs.nthu.edu.tw/problem/12724/
  HW1 Block Puzzle: recursion
